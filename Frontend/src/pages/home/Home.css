@@ -1,0 +1,5 @@
+.cardhover:hover{
+  rotate: 0.5deg;
+  transition: all 0.5s !important;
+  scale: 1.01;
+}
