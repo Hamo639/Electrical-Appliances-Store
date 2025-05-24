@@ -1,6 +1,6 @@
 {
  "scripts": {
-   "dev": "node index.js",
+   "dev": "node server.js",
    "build": "npm i"
  },
  "dependencies": {
