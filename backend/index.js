@@ -12,7 +12,7 @@ app.get("/products", (req, res) => {
 });
 app.get("/products/:id", (req, res) => {
   const oneproduct=products.find((item) => {
-    return item.id==req.params.id
+return item.id.toString() === req.params.id;
   }
   )
   res.send(oneproduct);
