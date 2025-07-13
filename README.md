@@ -1,3 +1,8 @@
+# How to Run the Project
+
+### 🚀 Frontend
+1. Go to the Frontend folder:
+```bash
 cd Frontend
 Install dependencies:
 
