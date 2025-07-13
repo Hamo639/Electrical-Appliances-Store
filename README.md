@@ -1,24 +1,18 @@
-# 🛍️ React E-Commerce Store (Dark/Light Mode + Redux + Responsive)
+cd Frontend
+Install dependencies:
 
-This is a fully functional and responsive **E-Commerce web application** built using **React.js**. It features **Redux Toolkit** for state management, supports **Dark/Light themes**, and integrates with a fake products API. The UI is built with **Material UI (MUI)**.
+bash
+npm install
+Start the project:
 
-## 🚀 Features
+bash
+npm start
+🚀 Backend
+Go to the Backend folder:
 
-- 🌓 **Dark & Light Mode Toggle** with localStorage persistence
-- 🧠 **Redux Toolkit** for managing cart and product state
-- 🖥️ **Responsive Design** for all screen sizes (mobile, tablet, desktop)
-- 🔌 **API Integration** for dynamic product fetching
-- 🛒 **Cart System**: Add/remove products to cart
-- 🌐 **Routing** via `react-router-dom`
-- ⚙️ **MUI Components**: AppBar, Drawer, ThemeProvider, and more
+bash
+cd Backend
+Start the backend server:
 
-## 🧱 Tech Stack
-
-- React.js
-- Redux Toolkit
-- Material UI (MUI)
-- React Router
-- LocalStorage
-- CSS Modules
-
-## 📁 Folder Structure
+bash
+node --watch index.js
